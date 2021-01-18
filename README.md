@@ -1,0 +1,2 @@
+# Spoty
+Spotify on Discord

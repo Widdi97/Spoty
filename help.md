@@ -5,11 +5,18 @@ Disclaimer: no return messages on discord yet!
 ## Bot CMD
 
 Basic bot commands:
+
     $join - Bot joins current channel
+    
     $leave - Bot leaves current channel
+    
     $play - Bot start playback 
+    
     $pause - pause current playback
+    
     $resume - resumes current playback
+    
+    $commands - returns link to this helpfile
     
 
 ## spt help

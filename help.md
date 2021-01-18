@@ -18,6 +18,9 @@ Basic bot commands:
     
     $commands - returns link to this helpfile
     
+    $spt [SUBCOMMAND] [FLAGS] [OPTIONS] ...  - pass arguments to spt CLI
+
+    
 
 ## spt help
 

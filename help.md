@@ -1,15 +1,15 @@
-Spoty Help
+# Spoty Help
 
 Disclaimer: no return messages on discord yet
 
-SUBCOMMANDS:
+## SUBCOMMANDS:
     help        Prints this message or the help of the given subcommand(s) 
     list        Lists devices, liked songs and playlists [aliases: l]
     play        Plays a uri or another spotify item by name [aliases: p]
     playback    Interacts with the playback of a device [aliases: pb]
     search      Searches for tracks, albums and more [aliases: s]
 
-- PLAY - 
+## - PLAY - 
 
 If you specify a uri, the type can be inferred. If you want to play something by name, you have to specify the type:
 `--track`, `--album`, `--artist`, `--playlist` or `--show`. The first item which was found will be played without
@@ -62,7 +62,7 @@ OPTIONS:
             Plays the URI
 
 
- -  PLAYBACK - 
+## -  PLAYBACK - 
 
 Use `playback` to interact with the playback of the current or any other device. You can specify another device with
 `--device`. If no options were provided, spt will default to just displaying the current playback. Actually, after every

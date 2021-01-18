@@ -1,6 +1,8 @@
 # Spoty Help
 
-Disclaimer: no return messages on discord yet
+Disclaimer: no return messages on discord yet!
+
+Data Dump of [spotify-tui](https://github.com/Rigellute/spotify-tui) CLI help command
 
 ## SUBCOMMANDS:
     help        Prints this message or the help of the given subcommand(s) 

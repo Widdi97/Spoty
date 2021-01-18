@@ -5,11 +5,8 @@ Disclaimer: no return messages on discord yet!
 Data Dump of [spotify-tui](https://github.com/Rigellute/spotify-tui) CLI help command
 
 ## SUBCOMMANDS:
-    help        Prints this message or the help of the given subcommand(s) 
-    list        Lists devices, liked songs and playlists [aliases: l]
     play        Plays a uri or another spotify item by name [aliases: p]
     playback    Interacts with the playback of a device [aliases: pb]
-    search      Searches for tracks, albums and more [aliases: s]
 
 ## - PLAY - 
 
@@ -83,10 +80,7 @@ USAGE:
 FLAGS:
     -h, --help
             Prints help information
-
-        --like
-            Likes the current song
-
+            
     -n, --next
             This jumps to the next song if specied once. If you want to jump, let's say 3 songs forward, you can use
             `--next` 3 times: `spt pb -nnn`.
@@ -106,9 +100,6 @@ FLAGS:
         --shuffle
             Toggles shuffle mode
 
-    -s, --status
-            Prints out the current status of a device (default)
-
     -t, --toggle
             Pauses/resumes the playback of a device
 
@@ -117,15 +108,11 @@ FLAGS:
 
 
 OPTIONS:
-    -d, --device <DEVICE>
-            Specifies the spotify device to use
 
     -f, --format <FORMAT>
             There are multiple format specifiers you can use: %a: artist, %b: album, %p: playlist, %t: track, %h: show,
             %f: flags (shuffle, repeat, like), %s: playback status, %v: volume, %d: current device. Example: spt pb -s
             -f 'playing on %d at %v%' [default: %f %s %t - %a]
-        --transfer <DEVICE>
-            Transfers the playback to new DEVICE
 
     -v, --volume <VOLUME>
             Sets the volume of a device to VOLUME (1 - 100)

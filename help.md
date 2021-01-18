@@ -2,9 +2,21 @@
 
 Disclaimer: no return messages on discord yet!
 
-Data Dump of [spotify-tui](https://github.com/Rigellute/spotify-tui) CLI help command
+## Bot CMD
 
-## SUBCOMMANDS:
+Basic bot commands:
+    $join - Bot joins current channel
+    $leave - Bot leaves current channel
+    $play - Bot start playback 
+    $pause - pause current playback
+    $resume - resumes current playback
+    
+
+## spt help
+
+Data Dump of [spotify-tui](https://github.com/Rigellute/spotify-tui) CLI help command:
+
+## SUBCOMMANDS of spt:
     play        Plays a uri or another spotify item by name [aliases: p]
     playback    Interacts with the playback of a device [aliases: pb]
 
